@@ -164,7 +164,7 @@ img{
     .navbar{
         display: flex;
         position: -webkit-sticky;
-        height: 100%;
+        height: auto;
     }
 
     .navbar .navigation{
