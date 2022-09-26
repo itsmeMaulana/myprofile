@@ -164,11 +164,12 @@ img{
     .navbar{
         display: flex;
         position: -webkit-sticky;
-        height: auto;
+        height: 20%;
     }
 
     .navbar .navigation{
         margin: 0;
+        padding: 0;
     }
 
     .main{
