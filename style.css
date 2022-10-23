@@ -74,9 +74,11 @@
 }
 
 .navigation>li>a:hover{
-    font-size: 20px;
-    color: rgb(49, 199, 204);
-    transition: all .3s ease-in-out;
+    font-size: 18px;
+    transition: all .5s ease-in-out;
+    border-radius: 28px;
+    padding: 15px;
+    background-color: rgb(49, 199, 204);
 }
 
 .active{
@@ -117,7 +119,7 @@ img{
     height: 100vh;
     padding-top: 20%;
     margin: 25px;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #contact{
@@ -149,6 +151,7 @@ img{
 .description{
     padding-top: 8px;
     text-align: center;
+    align-items: center;
     font-family: 'Kanit', sans-serif;
     font-size: 35px;
 }
@@ -401,6 +404,10 @@ p{
         margin: 0;
     }
     
+    #about{
+        text-align: left;
+        font-size: 22px;
+    }
     .main{
         text-align: center;
         align-items: center;
@@ -421,6 +428,7 @@ p{
     .description{
         font-family: 'Sniglet', cursive;
         text-transform: capitalize;
+        font-size: 18px;
     }
     
     #contact{
